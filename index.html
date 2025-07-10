@@ -60,15 +60,63 @@
     <head class="header" data-header>
         <div class="">
             <a href="#" class="logo">
-                <img src="./assests/images/logo-light.svg" width="129" height="16" alt="cozynet" class="" </head>
+                <img src="./assests/images/logo-light.svg" width="129" height="16" alt="cozynet" class="">
+            </a>
 
+            <nav class="navbar" data-navbar>
+                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                    <span class="material-symbols-rounded" aria-hidden="true">
+                        close
+                    </span>
+                </button>
 
-                <!--
-                    - ionicon link
-                -->
-                <script type=" module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#home" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#blog" class="navbar-link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#latest" class="navbar-link">Latest</a>
+                    </li>
+
+                    <li>
+                        <a href="#info" class="navbar-link">Info</a>
+                    </li>
+
+                    <li>
+                        <button class="navbar-link">Shop
+                            <ion-icon name="caret-forward-outline" aria-hidden="true" class=""></ion-icon>
+                        </button>
+                        <div class="dropdown" data-dropdown>
+                            <div class="dropdown-content">
+                                <a href="#" class="">All Products</a>
+                                <a href="#" class="">Clothing</a>
+                                <a href="#" class="">Candles</a>
+                                <a href="#" class="">Accessories</a>
+                                <a href="#" class="">Bags</a>
+                                <a href="#" class="">Clocks</a>
+                                <a href="#" class="">SALE 🏷️</a>
+                            </div>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+    <!--
+        - ionicon
+    -->
+
+            <script type=" module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
     </script>
-                <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>
