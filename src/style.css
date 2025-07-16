@@ -23,4 +23,27 @@ html {
 
 ion-icon {
     --ionicon-stroke-width: 50px;
-  }
+}
+
+
+/*___________*\
+    #HEADER    
+\*___________*/
+
+.header {
+    @apply bg-caf_noir 
+    fixed
+    left-0
+    top-0
+    z-30
+    h-20w
+    w-full
+    duration-200
+    ease-inExpo
+
+/* responsive for lg:1200px screen */
+lg:bg-transparent;
+
+}
+
+
